@@ -1,0 +1,2 @@
+## Known Issue
+Implementing database transactions with TypeORM across multiple abstraction layers is challenging. TypeORM requires creating a query runner and using the entity manager directly for transactions. This makes it difficult to manage transactions across multiple service layers or repositories without exposing repository implementation details, thus breaking abstraction principles. This issue may be due to limitations within the TypeORM library.

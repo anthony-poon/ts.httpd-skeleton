@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": [
+      "DOM",
+      // Required for TypeORM. See https://typeorm.io/
+      "es6"
+    ],
+    // Required for TypeORM. See https://typeorm.io/
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES6"
+  },
+  "extends": "@tsconfig/node18/tsconfig.json"
+}
